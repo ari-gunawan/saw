@@ -12,7 +12,6 @@
         "ext-mbstring": "*",
         "kint-php/kint": "^3.3",
         "laminas/laminas-escaper": "^2.6",
-        "phpoffice/phpspreadsheet": "^1.29",
         "psr/log": "^1.1"
     },
     "require-dev": {
