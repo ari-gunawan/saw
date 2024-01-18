@@ -1,0 +1,13 @@
+ERROR - 2022-12-06 13:28:12 --> Error connecting to the database: Unknown database 'saustars'
+CRITICAL - 2022-12-06 13:28:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'saustars'
+#0 C:\laragon\www\mysau_template\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\mysau_template\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laragon\www\mysau_template\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\mysau_template\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#4 C:\laragon\www\mysau_template\app\Controllers\Login.php(29): CodeIgniter\BaseModel->first()
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Login->auth()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

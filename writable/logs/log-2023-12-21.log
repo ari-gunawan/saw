@@ -1,0 +1,168 @@
+CRITICAL - 2023-12-21 16:55:06 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 C:\xampp\htdocs\ci\system\HTTP\CLIRequest.php(205): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', 'C:\\xampp\\htdocs...', 205)
+#1 C:\xampp\htdocs\ci\system\HTTP\CLIRequest.php(70): CodeIgniter\HTTP\CLIRequest->parseCommand()
+#2 C:\xampp\htdocs\ci\system\Config\Services.php(133): CodeIgniter\HTTP\CLIRequest->__construct(Object(Config\App))
+#3 C:\xampp\htdocs\ci\system\Config\BaseService.php(263): CodeIgniter\Config\Services::clirequest(Object(Config\App), false)
+#4 C:\xampp\htdocs\ci\system\Config\BaseService.php(192): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#5 C:\xampp\htdocs\ci\system\Config\Services.php(128): CodeIgniter\Config\BaseService::getSharedInstance('clirequest', Object(Config\App))
+#6 C:\xampp\htdocs\ci\system\Config\BaseService.php(263): CodeIgniter\Config\Services::clirequest(Object(Config\App))
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(586): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#8 C:\xampp\htdocs\ci\system\CodeIgniter.php(309): CodeIgniter\CodeIgniter->getRequestObject()
+#9 C:\xampp\htdocs\ci\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci\spark(65): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-12-21 17:30:07 --> Table 'topsis.hasil_proses' doesn't exist
+CRITICAL - 2023-12-21 17:30:07 --> Table 'topsis.hasil_proses' doesn't exist
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci\app\Controllers\Home.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-12-21 17:32:55 --> Table 'topsis.mytable' doesn't exist
+CRITICAL - 2023-12-21 17:32:55 --> Table 'topsis.mytable' doesn't exist
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `masterd...')
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `masterd...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `masterd...')
+#3 C:\xampp\htdocs\ci\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `masterd...', Array, false)
+#4 C:\xampp\htdocs\ci\app\Models\DetailKaryawanModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci\app\Controllers\ListKaryawan.php(28): App\Models\DetailKaryawanModel->get_form('1679')
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail('1679')
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#8 C:\xampp\htdocs\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-21 17:34:57 --> Table 'topsis.mytable' doesn't exist
+CRITICAL - 2023-12-21 17:34:57 --> Table 'topsis.mytable' doesn't exist
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `masterd...')
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `masterd...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `masterd...')
+#3 C:\xampp\htdocs\ci\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `masterd...', Array, false)
+#4 C:\xampp\htdocs\ci\app\Models\DetailKaryawanModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci\app\Controllers\ListKaryawan.php(28): App\Models\DetailKaryawanModel->get_form('1679')
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail('1679')
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#8 C:\xampp\htdocs\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-21 17:35:53 --> Table 'topsis.mytable' doesn't exist
+CRITICAL - 2023-12-21 17:35:53 --> Table 'topsis.mytable' doesn't exist
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `masterd...')
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `masterd...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `masterd...')
+#3 C:\xampp\htdocs\ci\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `masterd...', Array, false)
+#4 C:\xampp\htdocs\ci\app\Models\DetailKaryawanModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci\app\Controllers\ListKaryawan.php(28): App\Models\DetailKaryawanModel->get_form('1679')
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail('1679')
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#8 C:\xampp\htdocs\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-21 17:36:19 --> Unknown column 'mytable.PN_mytable' in 'field list'
+CRITICAL - 2023-12-21 17:36:19 --> Unknown column 'mytable.PN_mytable' in 'field list'
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `masterd...')
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `masterd...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `masterd...')
+#3 C:\xampp\htdocs\ci\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `masterd...', Array, false)
+#4 C:\xampp\htdocs\ci\app\Models\DetailKaryawanModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci\app\Controllers\ListKaryawan.php(28): App\Models\DetailKaryawanModel->get_form('1679')
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail('1679')
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#8 C:\xampp\htdocs\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-21 17:36:20 --> Unknown column 'mytable.PN_mytable' in 'field list'
+CRITICAL - 2023-12-21 17:36:20 --> Unknown column 'mytable.PN_mytable' in 'field list'
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `masterd...')
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `masterd...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `masterd...')
+#3 C:\xampp\htdocs\ci\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `masterd...', Array, false)
+#4 C:\xampp\htdocs\ci\app\Models\DetailKaryawanModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci\app\Controllers\ListKaryawan.php(28): App\Models\DetailKaryawanModel->get_form('1679')
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail('1679')
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#8 C:\xampp\htdocs\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-21 17:36:21 --> Unknown column 'mytable.PN_mytable' in 'field list'
+CRITICAL - 2023-12-21 17:36:21 --> Unknown column 'mytable.PN_mytable' in 'field list'
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `masterd...')
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `masterd...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `masterd...')
+#3 C:\xampp\htdocs\ci\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `masterd...', Array, false)
+#4 C:\xampp\htdocs\ci\app\Models\DetailKaryawanModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci\app\Controllers\ListKaryawan.php(28): App\Models\DetailKaryawanModel->get_form('1679')
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail('1679')
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#8 C:\xampp\htdocs\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-21 17:36:22 --> Unknown column 'mytable.PN_mytable' in 'field list'
+CRITICAL - 2023-12-21 17:36:22 --> Unknown column 'mytable.PN_mytable' in 'field list'
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `masterd...')
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `masterd...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `masterd...')
+#3 C:\xampp\htdocs\ci\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `masterd...', Array, false)
+#4 C:\xampp\htdocs\ci\app\Models\DetailKaryawanModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci\app\Controllers\ListKaryawan.php(28): App\Models\DetailKaryawanModel->get_form('1679')
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail('1679')
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#8 C:\xampp\htdocs\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-21 17:36:23 --> Unknown column 'mytable.PN_mytable' in 'field list'
+CRITICAL - 2023-12-21 17:36:23 --> Unknown column 'mytable.PN_mytable' in 'field list'
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `masterd...')
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `masterd...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `masterd...')
+#3 C:\xampp\htdocs\ci\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `masterd...', Array, false)
+#4 C:\xampp\htdocs\ci\app\Models\DetailKaryawanModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci\app\Controllers\ListKaryawan.php(28): App\Models\DetailKaryawanModel->get_form('1679')
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail('1679')
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#8 C:\xampp\htdocs\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-21 17:36:23 --> Unknown column 'mytable.PN_mytable' in 'field list'
+CRITICAL - 2023-12-21 17:36:23 --> Unknown column 'mytable.PN_mytable' in 'field list'
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `masterd...')
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `masterd...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `masterd...')
+#3 C:\xampp\htdocs\ci\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `masterd...', Array, false)
+#4 C:\xampp\htdocs\ci\app\Models\DetailKaryawanModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci\app\Controllers\ListKaryawan.php(28): App\Models\DetailKaryawanModel->get_form('1679')
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail('1679')
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#8 C:\xampp\htdocs\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-21 17:36:23 --> Unknown column 'mytable.PN_mytable' in 'field list'
+CRITICAL - 2023-12-21 17:36:23 --> Unknown column 'mytable.PN_mytable' in 'field list'
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `masterd...')
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `masterd...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `masterd...')
+#3 C:\xampp\htdocs\ci\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `masterd...', Array, false)
+#4 C:\xampp\htdocs\ci\app\Models\DetailKaryawanModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci\app\Controllers\ListKaryawan.php(28): App\Models\DetailKaryawanModel->get_form('1679')
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail('1679')
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#8 C:\xampp\htdocs\ci\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}

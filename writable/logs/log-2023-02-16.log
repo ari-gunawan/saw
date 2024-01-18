@@ -1,0 +1,182 @@
+CRITICAL - 2023-02-16 11:55:09 --> Undefined variable: u
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 33, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(46): view('detail', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('38')
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-16 11:55:55 --> Undefined variable: u
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 33, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(46): view('detail', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('38')
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-16 11:55:56 --> Undefined variable: u
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 33, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(46): view('detail', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('38')
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-16 11:56:01 --> Undefined variable: u
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 33, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(46): view('detail', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('38')
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-16 11:59:10 --> Call to undefined method App\Models\RequestFormModel::hapusData
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(99): CodeIgniter\Model->__call('hapusData', Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->hapus('38')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-16 11:59:34 --> Call to undefined method App\Models\RequestFormModel::hapusData
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(99): CodeIgniter\Model->__call('hapusData', Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->hapus('38')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-16 11:59:35 --> Call to undefined method App\Models\RequestFormModel::hapusData
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(99): CodeIgniter\Model->__call('hapusData', Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->hapus('38')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-16 11:59:40 --> Call to undefined method App\Models\RequestFormModel::hapusData
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(99): CodeIgniter\Model->__call('hapusData', Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->hapus('38')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-16 12:00:26 --> Call to undefined method App\Models\RequestFormModel::hapusData
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(99): CodeIgniter\Model->__call('hapusData', Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->hapus('38')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-16 12:00:57 --> Call to undefined method App\Models\RequestFormModel::hapusData
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(99): CodeIgniter\Model->__call('hapusData', Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->hapus('38')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-16 12:03:07 --> Call to undefined method App\Models\RequestFormModel::hapusData
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(99): CodeIgniter\Model->__call('hapusData', Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->hapus('38')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-16 12:03:11 --> Call to undefined method App\Models\RequestFormModel::hapusData
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(99): CodeIgniter\Model->__call('hapusData', Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->hapus('38')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-16 12:03:38 --> Call to undefined method App\Models\RequestFormModel::hapusData
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(99): CodeIgniter\Model->__call('hapusData', Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->delete('38')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-16 12:03:41 --> Call to undefined method App\Models\RequestFormModel::hapusData
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(99): CodeIgniter\Model->__call('hapusData', Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->delete('38')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-16 12:03:46 --> Call to undefined method App\Models\RequestFormModel::hapusData
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(99): CodeIgniter\Model->__call('hapusData', Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->delete('38')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-16 12:04:02 --> Call to undefined method App\Models\RequestFormModel::hapusData
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(99): CodeIgniter\Model->__call('hapusData', Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->delete('38')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-16 12:05:37 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\laragon\www\mysau_template\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\mysau_template\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Requ...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Requ...')
+#3 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(13): spl_autoload_call('App\\Models\\Requ...')
+#4 C:\laragon\www\mysau_template\system\CodeIgniter.php(900): App\Controllers\Presensi->__construct()
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-16 12:05:39 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\laragon\www\mysau_template\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\mysau_template\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Requ...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Requ...')
+#3 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(13): spl_autoload_call('App\\Models\\Requ...')
+#4 C:\laragon\www\mysau_template\system\CodeIgniter.php(900): App\Controllers\Presensi->__construct()
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-16 12:05:39 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\laragon\www\mysau_template\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\mysau_template\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Requ...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Requ...')
+#3 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(13): spl_autoload_call('App\\Models\\Requ...')
+#4 C:\laragon\www\mysau_template\system\CodeIgniter.php(900): App\Controllers\Presensi->__construct()
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-16 12:05:44 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\laragon\www\mysau_template\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\mysau_template\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Requ...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Requ...')
+#3 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(13): spl_autoload_call('App\\Models\\Requ...')
+#4 C:\laragon\www\mysau_template\system\CodeIgniter.php(900): App\Controllers\Presensi->__construct()
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-16 14:17:50 --> Call to undefined method App\Models\RequestFormModel::hapusData
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(111): CodeIgniter\Model->__call('hapusData', Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->delete('38')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-16 15:19:13 --> Call to undefined method App\Models\RequestFormModel::hapusData
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(105): CodeIgniter\Model->__call('hapusData', Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->delete('38')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,34 @@
+CRITICAL - 2023-02-21 08:56:17 --> include(config.php): failed to open stream: No such file or directory
+#0 C:\laragon\www\mysau_template\app\Controllers\Login.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(config....', 'C:\\laragon\\www\\...', 8, Array)
+#1 C:\laragon\www\mysau_template\app\Controllers\Login.php(8): include()
+#2 C:\laragon\www\mysau_template\system\Autoloader\Autoloader.php(300): include_once('C:\\laragon\\www\\...')
+#3 C:\laragon\www\mysau_template\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#4 C:\laragon\www\mysau_template\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#6 [internal function]: spl_autoload_call('App\\Controllers...')
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#8 C:\laragon\www\mysau_template\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#9 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-21 09:09:40 --> Undefined variable: _SESSION
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 18, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-21 16:12:19 --> syntax error, unexpected '}'
+#0 C:\laragon\www\mysau_template\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('presensi')
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('presensi')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-21 16:58:13 --> syntax error, unexpected '}'
+#0 C:\laragon\www\mysau_template\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('presensi')
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('presensi')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,56 @@
+CRITICAL - 2023-05-05 09:18:33 --> syntax error, unexpected 'as' (T_AS), expecting variable (T_VARIABLE) or '{' or '$'
+#0 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('DataKaryawan', Array, true)
+#2 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(35): view('DataKaryawan', Array)
+#3 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail('7404')
+#4 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2023-05-05 09:35:41 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\mysau_template\app\Views\welcome_message.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 45, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\Home.php(27): view('welcome_message', Array)
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-05-05 09:36:54 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\mysau_template\app\Views\welcome_message.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 45, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\Home.php(27): view('welcome_message', Array)
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-05-05 09:37:17 --> syntax error, unexpected '?>'
+#0 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 D:\laragon\www\mysau_template\app\Controllers\Home.php(27): view('welcome_message', Array)
+#3 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#4 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2023-05-05 09:37:22 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\mysau_template\app\Views\welcome_message.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 46, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\Home.php(27): view('welcome_message', Array)
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}

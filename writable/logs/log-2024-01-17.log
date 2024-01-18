@@ -1,0 +1,36 @@
+CRITICAL - 2024-01-17 19:27:26 --> Undefined variable: row
+#0 D:\laragon\www\test\app\Views\tabelKaryawan.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 46, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('tabelKaryawan', Array, true)
+#4 D:\laragon\www\test\app\Controllers\ListKaryawan.php(53): view('tabelKaryawan', Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->index()
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-01-17 19:27:52 --> Undefined index: id
+#0 D:\laragon\www\test\app\Views\tabelKaryawan.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 46, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('tabelKaryawan', Array, true)
+#4 D:\laragon\www\test\app\Controllers\ListKaryawan.php(53): view('tabelKaryawan', Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->index()
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-01-17 19:27:55 --> Undefined index: id
+#0 D:\laragon\www\test\app\Views\tabelKaryawan.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 46, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('tabelKaryawan', Array, true)
+#4 D:\laragon\www\test\app\Controllers\ListKaryawan.php(53): view('tabelKaryawan', Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->index()
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}

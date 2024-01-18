@@ -1,0 +1,222 @@
+CRITICAL - 2023-03-02 14:36:40 --> Undefined offset: 0
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 67, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('<')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 14:44:54 --> Undefined offset: 0
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 74, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('<')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 14:50:44 --> Undefined offset: 0
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 74, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('<')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 14:50:46 --> Undefined offset: 0
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 74, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('<')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 14:50:46 --> Undefined offset: 0
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 74, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('<')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 14:50:47 --> Undefined offset: 0
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 74, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('<')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 14:50:47 --> Undefined offset: 0
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 74, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('<')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 14:50:48 --> Undefined offset: 0
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 74, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('<')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 14:55:56 --> Undefined offset: 0
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 78, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('<')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 15:02:39 --> Undefined offset: 0
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 78, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('<')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 15:02:40 --> Undefined offset: 0
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 78, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('<')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 15:21:33 --> Undefined offset: 0
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 88, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('<')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 15:22:08 --> Undefined offset: 0
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 88, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('<')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 15:22:33 --> Undefined offset: 0
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 88, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('<')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 15:22:34 --> Undefined offset: 0
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 88, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('<')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 15:22:34 --> Undefined offset: 0
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 88, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('<')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 15:22:34 --> Undefined offset: 0
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 88, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('<')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 15:22:35 --> Undefined offset: 0
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 88, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('<')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 15:22:35 --> Undefined offset: 0
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 88, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('<')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 15:23:22 --> Undefined offset: 0
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 88, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('<')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 15:26:54 --> Undefined offset: 0
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 74, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('<')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 15:28:11 --> Undefined offset: 0
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 74, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('<')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 15:29:43 --> Undefined offset: 0
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 77, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('<')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 15:29:58 --> Undefined offset: 0
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 77, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('<')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 15:32:43 --> Undefined offset: 0
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 77, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('<')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 15:37:36 --> Undefined offset: 0
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 74, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('<')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 15:37:51 --> Undefined offset: 0
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 74, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('<')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 15:40:11 --> Undefined offset: 0
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 74, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('<')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 16:13:50 --> Too few arguments to function App\Controllers\Presensi::edit(), 0 passed in C:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->edit()
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-02 16:14:29 --> Too few arguments to function App\Controllers\Presensi::edit(), 0 passed in C:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->edit()
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-02 16:15:09 --> Call to undefined method App\Models\RequestFormModel::get_user
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(88): CodeIgniter\Model->__call('get_user', Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->edit()
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-02 16:19:02 --> Call to undefined method App\Models\RequestFormModel::get_user
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(88): CodeIgniter\Model->__call('get_user', Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->edit()
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

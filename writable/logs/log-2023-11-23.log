@@ -1,0 +1,12 @@
+CRITICAL - 2023-11-23 14:36:19 --> Undefined index: PN
+#0 D:\laragon\www\mysau_template\app\Views\perhitungan.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 25, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('perhitungan', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\perhitungan.php(22): view('perhitungan', Array)
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\perhitungan->index()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perhitungan))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}

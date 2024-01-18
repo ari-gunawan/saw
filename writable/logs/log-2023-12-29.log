@@ -1,0 +1,215 @@
+CRITICAL - 2023-12-29 05:35:58 --> Undefined variable: ListKaryawanModel
+#0 D:\laragon\www\test\app\Controllers\ListKaryawan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 16, Array)
+#1 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\ListKaryawan->__construct()
+#2 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-12-29 05:36:20 --> Undefined variable: ListKaryawanModel
+#0 D:\laragon\www\test\app\Controllers\ListKaryawan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 16, Array)
+#1 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\ListKaryawan->__construct()
+#2 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-12-29 05:36:22 --> Undefined variable: ListKaryawanModel
+#0 D:\laragon\www\test\app\Controllers\ListKaryawan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 16, Array)
+#1 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\ListKaryawan->__construct()
+#2 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-12-29 05:36:25 --> Undefined variable: ListKaryawanModel
+#0 D:\laragon\www\test\app\Controllers\ListKaryawan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 16, Array)
+#1 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\ListKaryawan->__construct()
+#2 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-12-29 05:36:25 --> Undefined variable: ListKaryawanModel
+#0 D:\laragon\www\test\app\Controllers\ListKaryawan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 16, Array)
+#1 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\ListKaryawan->__construct()
+#2 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-12-29 05:36:26 --> Undefined variable: ListKaryawanModel
+#0 D:\laragon\www\test\app\Controllers\ListKaryawan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 16, Array)
+#1 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\ListKaryawan->__construct()
+#2 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-12-29 05:36:26 --> Undefined variable: ListKaryawanModel
+#0 D:\laragon\www\test\app\Controllers\ListKaryawan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 16, Array)
+#1 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\ListKaryawan->__construct()
+#2 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-12-29 05:36:26 --> Undefined variable: ListKaryawanModel
+#0 D:\laragon\www\test\app\Controllers\ListKaryawan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 16, Array)
+#1 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\ListKaryawan->__construct()
+#2 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-12-29 05:36:26 --> Undefined variable: ListKaryawanModel
+#0 D:\laragon\www\test\app\Controllers\ListKaryawan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 16, Array)
+#1 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\ListKaryawan->__construct()
+#2 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-12-29 05:36:26 --> Undefined variable: ListKaryawanModel
+#0 D:\laragon\www\test\app\Controllers\ListKaryawan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 16, Array)
+#1 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\ListKaryawan->__construct()
+#2 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-12-29 05:36:26 --> Undefined variable: ListKaryawanModel
+#0 D:\laragon\www\test\app\Controllers\ListKaryawan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 16, Array)
+#1 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\ListKaryawan->__construct()
+#2 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-12-29 05:36:27 --> Undefined variable: ListKaryawanModel
+#0 D:\laragon\www\test\app\Controllers\ListKaryawan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 16, Array)
+#1 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\ListKaryawan->__construct()
+#2 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-12-29 05:36:27 --> Undefined variable: ListKaryawanModel
+#0 D:\laragon\www\test\app\Controllers\ListKaryawan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 16, Array)
+#1 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\ListKaryawan->__construct()
+#2 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-12-29 05:36:27 --> Undefined variable: ListKaryawanModel
+#0 D:\laragon\www\test\app\Controllers\ListKaryawan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 16, Array)
+#1 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\ListKaryawan->__construct()
+#2 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-12-29 05:36:27 --> Undefined variable: ListKaryawanModel
+#0 D:\laragon\www\test\app\Controllers\ListKaryawan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 16, Array)
+#1 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\ListKaryawan->__construct()
+#2 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-12-29 05:36:27 --> Undefined variable: ListKaryawanModel
+#0 D:\laragon\www\test\app\Controllers\ListKaryawan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 16, Array)
+#1 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\ListKaryawan->__construct()
+#2 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-12-29 05:36:28 --> Undefined variable: ListKaryawanModel
+#0 D:\laragon\www\test\app\Controllers\ListKaryawan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 16, Array)
+#1 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\ListKaryawan->__construct()
+#2 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-12-29 05:36:28 --> Undefined variable: ListKaryawanModel
+#0 D:\laragon\www\test\app\Controllers\ListKaryawan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 16, Array)
+#1 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\ListKaryawan->__construct()
+#2 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-12-29 05:36:28 --> Undefined variable: ListKaryawanModel
+#0 D:\laragon\www\test\app\Controllers\ListKaryawan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 16, Array)
+#1 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\ListKaryawan->__construct()
+#2 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-12-29 05:36:28 --> Undefined variable: ListKaryawanModel
+#0 D:\laragon\www\test\app\Controllers\ListKaryawan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 16, Array)
+#1 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\ListKaryawan->__construct()
+#2 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-12-29 05:36:28 --> Undefined variable: ListKaryawanModel
+#0 D:\laragon\www\test\app\Controllers\ListKaryawan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 16, Array)
+#1 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\ListKaryawan->__construct()
+#2 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-12-29 05:37:44 --> Cannot redeclare App\Controllers\ListKaryawan::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-12-29 05:37:46 --> Cannot redeclare App\Controllers\ListKaryawan::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-12-29 05:37:47 --> Cannot redeclare App\Controllers\ListKaryawan::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-12-29 05:38:59 --> syntax error, unexpected ''datatable'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\laragon\www\test\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('ListKaryawan')
+#1 D:\laragon\www\test\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('ListKaryawan')
+#2 D:\laragon\www\test\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-12-29 05:39:16 --> Cannot redeclare App\Controllers\ListKaryawan::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-12-29 05:39:34 --> Cannot redeclare App\Controllers\ListKaryawan::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-12-29 05:39:44 --> Cannot redeclare App\Controllers\ListKaryawan::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-12-29 05:39:49 --> Cannot redeclare App\Controllers\ListKaryawan::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-12-29 05:39:50 --> Cannot redeclare App\Controllers\ListKaryawan::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-12-29 05:40:30 --> Cannot redeclare App\Controllers\ListKaryawan::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-12-29 05:40:31 --> Cannot redeclare App\Controllers\ListKaryawan::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-12-29 05:40:32 --> Cannot redeclare App\Controllers\ListKaryawan::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-12-29 05:40:32 --> Cannot redeclare App\Controllers\ListKaryawan::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-12-29 05:40:32 --> Cannot redeclare App\Controllers\ListKaryawan::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

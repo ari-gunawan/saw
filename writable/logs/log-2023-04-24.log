@@ -1,0 +1,452 @@
+ERROR - 2023-04-24 17:44:31 --> Table 'topsis.pekerja' doesn't exist
+CRITICAL - 2023-04-24 17:44:31 --> Table 'topsis.pekerja' doesn't exist
+#0 D:\laragon\www\mysau_template\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 D:\laragon\www\mysau_template\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\mysau_template\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\mysau_template\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\mysau_template\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\mysau_template\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 D:\laragon\www\mysau_template\app\Controllers\Login.php(29): CodeIgniter\BaseModel->first()
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Login->auth()
+#8 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-04-24 17:48:42 --> Undefined index: ALAMAT_EMAIL
+#0 D:\laragon\www\mysau_template\app\Controllers\Login.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 37, Array)
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Login->auth()
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-04-24 18:16:30 --> Undefined variable: datatable
+#0 D:\laragon\www\mysau_template\app\Views\tabelKaryawan.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 25, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('tabelKaryawan', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(9): view('tabelKaryawan')
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->index()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-04-24 18:17:59 --> Undefined variable: datatable
+#0 D:\laragon\www\mysau_template\app\Views\tabelKaryawan.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 25, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('tabelKaryawan', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(9): view('tabelKaryawan')
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->index()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-04-24 18:18:00 --> Undefined variable: datatable
+#0 D:\laragon\www\mysau_template\app\Views\tabelKaryawan.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 25, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('tabelKaryawan', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(9): view('tabelKaryawan')
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->index()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-04-24 18:29:59 --> Undefined variable: value
+#0 D:\laragon\www\mysau_template\app\Views\tabelKaryawan.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 24, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('tabelKaryawan', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(9): view('tabelKaryawan')
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->index()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-04-24 18:48:52 --> Undefined variable: detail
+#0 D:\laragon\www\mysau_template\app\Views\detail.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 20, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(14): view('detail')
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-04-24 18:50:38 --> Undefined variable: detail
+#0 D:\laragon\www\mysau_template\app\Views\detail.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 42, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(14): view('detail')
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-04-24 18:50:58 --> Undefined variable: detail
+#0 D:\laragon\www\mysau_template\app\Views\detail.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 61, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(14): view('detail')
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-04-24 18:51:14 --> Undefined variable: detail
+#0 D:\laragon\www\mysau_template\app\Views\detail.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 61, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(14): view('detail')
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-04-24 18:51:16 --> Undefined variable: detail
+#0 D:\laragon\www\mysau_template\app\Views\detail.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 61, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(14): view('detail')
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-04-24 19:03:53 --> Array to string conversion
+#0 D:\laragon\www\mysau_template\app\Views\tabelKaryawan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\laragon\\www\\...', 29, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('tabelKaryawan', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(21): view('tabelKaryawan', Array)
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->index()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-04-24 19:08:07 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:08:33 --> Undefined variable: id
+#0 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 29, Array)
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#3 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-04-24 19:08:45 --> Call to undefined method App\Models\ListKaryawanModel::get_form
+#0 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(29): CodeIgniter\Model->__call('get_form', Array)
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#3 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-04-24 19:09:19 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:18:19 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:18:22 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:18:48 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:18:58 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:19:00 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:19:01 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:19:01 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:19:02 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:19:02 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:19:02 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:21:15 --> syntax error, unexpected ';', expecting ']'
+#0 D:\laragon\www\mysau_template\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('ListKaryawan/de...')
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('ListKaryawan/de...')
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-04-24 19:21:52 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:23:53 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:30:02 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:31:26 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:31:27 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:31:28 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:31:28 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:31:28 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:31:29 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:31:29 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:31:29 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:31:29 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:31:29 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:31:29 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:33:25 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:33:26 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:33:33 --> Undefined variable: detail
+#0 D:\laragon\www\mysau_template\app\Views\tabelKaryawan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 34, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('tabelKaryawan', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(23): view('tabelKaryawan', Array)
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->index()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-04-24 19:33:35 --> Undefined variable: detail
+#0 D:\laragon\www\mysau_template\app\Views\tabelKaryawan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 34, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('tabelKaryawan', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(23): view('tabelKaryawan', Array)
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->index()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-04-24 19:33:36 --> Undefined variable: detail
+#0 D:\laragon\www\mysau_template\app\Views\tabelKaryawan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 34, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('tabelKaryawan', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(23): view('tabelKaryawan', Array)
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->index()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-04-24 19:33:40 --> Undefined variable: detail
+#0 D:\laragon\www\mysau_template\app\Views\tabelKaryawan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 34, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('tabelKaryawan', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(23): view('tabelKaryawan', Array)
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->index()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-04-24 19:34:08 --> Too few arguments to function App\Controllers\ListKaryawan::detail(), 0 passed in D:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-04-24 19:43:12 --> Undefined index: id
+#0 D:\laragon\www\mysau_template\app\Views\tabelKaryawan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 34, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('tabelKaryawan', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(23): view('tabelKaryawan', Array)
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->index()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-04-24 20:05:02 --> syntax error, unexpected '$query' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\laragon\www\mysau_template\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\...')
+#1 D:\laragon\www\mysau_template\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\List...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\List...')
+#3 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(12): spl_autoload_call('App\\Models\\List...')
+#4 D:\laragon\www\mysau_template\system\CodeIgniter.php(900): App\Controllers\ListKaryawan->__construct()
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2023-04-24 20:05:06 --> syntax error, unexpected '$query' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\laragon\www\mysau_template\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\...')
+#1 D:\laragon\www\mysau_template\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\List...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\List...')
+#3 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(12): spl_autoload_call('App\\Models\\List...')
+#4 D:\laragon\www\mysau_template\system\CodeIgniter.php(900): App\Controllers\ListKaryawan->__construct()
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#9 {main}

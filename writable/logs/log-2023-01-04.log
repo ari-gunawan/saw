@@ -1,0 +1,11 @@
+CRITICAL - 2023-01-04 15:30:58 --> Undefined index: keterangan
+#0 C:\laragon\www\mysau_template\app\Views\request-form.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 100, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('request-form', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(24): view('request-form', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

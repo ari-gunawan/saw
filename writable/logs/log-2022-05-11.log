@@ -1,0 +1,93 @@
+CRITICAL - 2022-05-11 00:02:54 --> Class 'Config\App\Filters\Auth' not found
+#0 D:\laragon\www\saustars\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('home', 'before')
+#1 D:\laragon\www\saustars\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\laragon\www\saustars\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-11 00:02:55 --> Class 'Config\App\Filters\Auth' not found
+#0 D:\laragon\www\saustars\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('home', 'before')
+#1 D:\laragon\www\saustars\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\laragon\www\saustars\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-11 00:02:55 --> Class 'Config\App\Filters\Auth' not found
+#0 D:\laragon\www\saustars\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('home', 'before')
+#1 D:\laragon\www\saustars\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\laragon\www\saustars\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-11 01:04:02 --> Class 'Config\App\Filters\Auth' not found
+#0 D:\laragon\www\saustars\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('home', 'before')
+#1 D:\laragon\www\saustars\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\laragon\www\saustars\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-11 01:04:03 --> Class 'Config\App\Filters\Auth' not found
+#0 D:\laragon\www\saustars\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('home', 'before')
+#1 D:\laragon\www\saustars\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\laragon\www\saustars\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-11 15:49:30 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 D:\laragon\www\saustars\system\CodeIgniter.php(928): App\Controllers\Presensi->simpanPresensi()
+#1 D:\laragon\www\saustars\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#2 D:\laragon\www\saustars\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\saustars\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-11 15:49:59 --> Allowed fields must be specified for model: App\Models\PekerjaModel
+#0 D:\laragon\www\saustars\system\BaseModel.php(1205): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Peke...')
+#1 D:\laragon\www\saustars\system\BaseModel.php(745): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 D:\laragon\www\saustars\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#3 D:\laragon\www\saustars\app\Controllers\Presensi.php(40): CodeIgniter\Model->insert(Array)
+#4 D:\laragon\www\saustars\system\CodeIgniter.php(928): App\Controllers\Presensi->simpanPresensi()
+#5 D:\laragon\www\saustars\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#6 D:\laragon\www\saustars\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\saustars\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-11 16:22:12 --> Unknown column 'PN' in 'where clause'
+CRITICAL - 2022-05-11 16:22:12 --> Unknown column 'PN' in 'where clause'
+#0 D:\laragon\www\saustars\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `absensi...')
+#1 D:\laragon\www\saustars\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `absensi...')
+#2 D:\laragon\www\saustars\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `absensi...')
+#3 D:\laragon\www\saustars\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `absensi...', Array, false)
+#4 D:\laragon\www\saustars\system\Model.php(326): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\laragon\www\saustars\system\BaseModel.php(917): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 D:\laragon\www\saustars\system\Model.php(718): CodeIgniter\BaseModel->update(NULL, Array)
+#7 D:\laragon\www\saustars\app\Controllers\Presensi.php(56): CodeIgniter\Model->update(NULL, Array)
+#8 D:\laragon\www\saustars\system\CodeIgniter.php(928): App\Controllers\Presensi->simpanPresensi()
+#9 D:\laragon\www\saustars\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#10 D:\laragon\www\saustars\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\saustars\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-11 16:22:25 --> Unknown column 'PN' in 'where clause'
+CRITICAL - 2022-05-11 16:22:25 --> Unknown column 'PN' in 'where clause'
+#0 D:\laragon\www\saustars\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `absensi...')
+#1 D:\laragon\www\saustars\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `absensi...')
+#2 D:\laragon\www\saustars\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `absensi...')
+#3 D:\laragon\www\saustars\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `absensi...', Array, false)
+#4 D:\laragon\www\saustars\system\Model.php(326): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\laragon\www\saustars\system\BaseModel.php(917): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 D:\laragon\www\saustars\system\Model.php(718): CodeIgniter\BaseModel->update(NULL, Array)
+#7 D:\laragon\www\saustars\app\Controllers\Presensi.php(56): CodeIgniter\Model->update(NULL, Array)
+#8 D:\laragon\www\saustars\system\CodeIgniter.php(928): App\Controllers\Presensi->simpanPresensi()
+#9 D:\laragon\www\saustars\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#10 D:\laragon\www\saustars\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\saustars\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-11 16:24:23 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\saustars\app\Views\presensi.php(674): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 674, Array)
+#1 D:\laragon\www\saustars\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\saustars\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\saustars\system\Common.php(1271): CodeIgniter\View\View->render('presensi', Array, true)
+#4 D:\laragon\www\saustars\app\Controllers\Presensi.php(24): view('presensi', Array)
+#5 D:\laragon\www\saustars\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#6 D:\laragon\www\saustars\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 D:\laragon\www\saustars\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\saustars\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-11 16:24:36 --> Trying to access array offset on value of type null
+#0 D:\laragon\www\saustars\app\Views\presensi.php(674): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 674, Array)
+#1 D:\laragon\www\saustars\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\saustars\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\saustars\system\Common.php(1271): CodeIgniter\View\View->render('presensi', Array, true)
+#4 D:\laragon\www\saustars\app\Controllers\Presensi.php(24): view('presensi', Array)
+#5 D:\laragon\www\saustars\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#6 D:\laragon\www\saustars\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 D:\laragon\www\saustars\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\saustars\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

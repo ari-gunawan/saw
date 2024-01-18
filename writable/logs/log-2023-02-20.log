@@ -1,0 +1,358 @@
+CRITICAL - 2023-02-20 10:07:22 --> syntax error, unexpected '<'
+#0 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('request-form', Array, true)
+#2 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(22): view('request-form', Array)
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#4 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-20 10:08:13 --> syntax error, unexpected end of file
+#0 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('request-form', Array, true)
+#2 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(22): view('request-form', Array)
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#4 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-20 10:08:25 --> Undefined index: status_name
+#0 C:\laragon\www\mysau_template\app\Views\request-form.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 104, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('request-form', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(22): view('request-form', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-20 10:09:20 --> Undefined index: status_name
+#0 C:\laragon\www\mysau_template\app\Views\request-form.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 104, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('request-form', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(22): view('request-form', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-20 10:09:20 --> Undefined index: status_name
+#0 C:\laragon\www\mysau_template\app\Views\request-form.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 104, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('request-form', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(22): view('request-form', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-20 10:10:30 --> Undefined index: status_name
+#0 C:\laragon\www\mysau_template\app\Views\request-form.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 104, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('request-form', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(22): view('request-form', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-20 10:22:31 --> Undefined variable: request_form
+#0 C:\laragon\www\mysau_template\app\Views\signer.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 24, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('signer', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Admin.php(9): view('signer')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Admin->signer()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-20 10:41:25 --> Undefined variable: request_form
+#0 C:\laragon\www\mysau_template\app\Views\signer.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 24, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('signer', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Admin.php(9): view('signer')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Admin->signer()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-20 10:41:45 --> Undefined variable: dataStatus
+#0 C:\laragon\www\mysau_template\app\Views\signer.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 31, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('signer', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Admin.php(9): view('signer')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Admin->signer()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-20 10:42:01 --> Undefined variable: request_form
+#0 C:\laragon\www\mysau_template\app\Views\signer.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 31, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('signer', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Admin.php(9): view('signer')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Admin->signer()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-20 10:42:14 --> Undefined variable: request_form
+#0 C:\laragon\www\mysau_template\app\Views\signer.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 24, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('signer', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Admin.php(9): view('signer')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Admin->signer()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-20 10:45:56 --> syntax error, unexpected ']', expecting variable (T_VARIABLE) or '{' or '$'
+#0 C:\laragon\www\mysau_template\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('presensi')
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('presensi')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-20 10:46:00 --> syntax error, unexpected ']', expecting variable (T_VARIABLE) or '{' or '$'
+#0 C:\laragon\www\mysau_template\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('presensi')
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('presensi')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-20 10:47:53 --> Undefined index: status
+#0 C:\laragon\www\mysau_template\app\Views\request-form.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 105, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('request-form', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(22): view('request-form', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-20 10:56:01 --> Class 'App\Controllers\ItemModel' not found
+#0 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-20 10:56:21 --> Undefined index: status
+#0 C:\laragon\www\mysau_template\app\Views\request-form.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 105, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('request-form', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(22): view('request-form', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-20 10:57:34 --> Cannot redeclare App\Controllers\Presensi::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-02-20 10:57:46 --> Undefined index: status
+#0 C:\laragon\www\mysau_template\app\Views\request-form.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 105, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('request-form', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(22): view('request-form', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-20 11:02:05 --> Class 'App\Controllers\beforeInsert' not found
+#0 C:\laragon\www\mysau_template\system\CodeIgniter.php(900): App\Controllers\Presensi->__construct()
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-20 11:03:58 --> Class 'App\Controllers\ItemModel' not found
+#0 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-20 11:04:13 --> Undefined index: status
+#0 C:\laragon\www\mysau_template\app\Views\request-form.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 105, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('request-form', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(22): view('request-form', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-20 11:15:49 --> Undefined index: status
+#0 C:\laragon\www\mysau_template\app\Views\request-form.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 105, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('request-form', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(22): view('request-form', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-20 11:15:51 --> Undefined index: status
+#0 C:\laragon\www\mysau_template\app\Views\request-form.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 105, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('request-form', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(22): view('request-form', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-20 11:18:06 --> Undefined index: status
+#0 C:\laragon\www\mysau_template\app\Views\request-form.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 105, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('request-form', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(22): view('request-form', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-20 11:18:34 --> Undefined index: status
+#0 C:\laragon\www\mysau_template\app\Views\request-form.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 105, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('request-form', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(22): view('request-form', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-20 14:08:12 --> Undefined variable: newName
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 54, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->simpanRequest()
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-02-20 14:08:36 --> Unknown column 'signer' in 'field list'
+CRITICAL - 2023-02-20 14:08:36 --> Unknown column 'signer' in 'field list'
+#0 C:\laragon\www\mysau_template\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `re...')
+#1 C:\laragon\www\mysau_template\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\laragon\www\mysau_template\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\laragon\www\mysau_template\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\laragon\www\mysau_template\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\mysau_template\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\mysau_template\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(59): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->simpanRequest()
+#9 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#10 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-02-20 14:08:58 --> Unknown column 'signer' in 'field list'
+CRITICAL - 2023-02-20 14:08:58 --> Unknown column 'signer' in 'field list'
+#0 C:\laragon\www\mysau_template\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `re...')
+#1 C:\laragon\www\mysau_template\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\laragon\www\mysau_template\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\laragon\www\mysau_template\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\laragon\www\mysau_template\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\mysau_template\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\mysau_template\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(59): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->simpanRequest()
+#9 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#10 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-02-20 14:10:03 --> Unknown column 'signer' in 'field list'
+CRITICAL - 2023-02-20 14:10:03 --> Unknown column 'signer' in 'field list'
+#0 C:\laragon\www\mysau_template\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `re...')
+#1 C:\laragon\www\mysau_template\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\laragon\www\mysau_template\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\laragon\www\mysau_template\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\laragon\www\mysau_template\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\mysau_template\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\mysau_template\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(59): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->simpanRequest()
+#9 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#10 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-02-20 14:10:24 --> Unknown column 'signer' in 'field list'
+CRITICAL - 2023-02-20 14:10:24 --> Unknown column 'signer' in 'field list'
+#0 C:\laragon\www\mysau_template\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `re...')
+#1 C:\laragon\www\mysau_template\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\laragon\www\mysau_template\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\laragon\www\mysau_template\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\laragon\www\mysau_template\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\mysau_template\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\mysau_template\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(59): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->simpanRequest()
+#9 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#10 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-02-20 14:11:27 --> Unknown column 'signer' in 'field list'
+CRITICAL - 2023-02-20 14:11:27 --> Unknown column 'signer' in 'field list'
+#0 C:\laragon\www\mysau_template\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `re...')
+#1 C:\laragon\www\mysau_template\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\laragon\www\mysau_template\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\laragon\www\mysau_template\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\laragon\www\mysau_template\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\mysau_template\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\mysau_template\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(59): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->simpanRequest()
+#9 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#10 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-02-20 14:18:18 --> Undefined variable: newName
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 54, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->simpanRequest()
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-20 14:19:37 --> Undefined variable: newName
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 54, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->simpanRequest()
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-20 14:19:42 --> Undefined index: kategori
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(70): view('detail', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('43')
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-20 14:26:30 --> Undefined index: 
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 27, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(70): view('detail', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('43')
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

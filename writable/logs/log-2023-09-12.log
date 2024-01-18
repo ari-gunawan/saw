@@ -1,0 +1,59 @@
+CRITICAL - 2023-09-12 10:52:22 --> syntax error, unexpected ','
+#0 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('DataKaryawan', Array, true)
+#2 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(35): view('DataKaryawan', Array)
+#3 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail('1679')
+#4 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2023-09-12 13:21:54 --> syntax error, unexpected ')'
+#0 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('DataKaryawan', Array, true)
+#2 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(35): view('DataKaryawan', Array)
+#3 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail('168241')
+#4 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2023-09-12 13:52:04 --> Undefined variable: data
+#0 D:\laragon\www\mysau_template\app\Models\DetailKaryawanModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 22, Array)
+#1 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(28): App\Models\DetailKaryawanModel->get_form('166245')
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail('166245')
+#3 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#4 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2023-09-12 13:52:18 --> Undefined variable: status
+#0 D:\laragon\www\mysau_template\app\Models\DetailKaryawanModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 22, Array)
+#1 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(28): App\Models\DetailKaryawanModel->get_form('166245')
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail('166245')
+#3 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#4 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2023-09-12 14:23:16 --> syntax error, unexpected '='
+#0 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('DataKaryawan', Array, true)
+#2 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(35): view('DataKaryawan', Array)
+#3 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail('166245')
+#4 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2023-09-12 14:23:30 --> Unsupported operand types
+#0 D:\laragon\www\mysau_template\system\View\View.php(230): include()
+#1 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('DataKaryawan', Array, true)
+#3 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(35): view('DataKaryawan', Array)
+#4 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail('166245')
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#9 {main}

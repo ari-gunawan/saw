@@ -1,0 +1,1086 @@
+CRITICAL - 2023-02-13 10:12:42 --> Undefined variable: request_form
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 10:13:38 --> Undefined variable: request_form
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 10:13:46 --> Undefined variable: detail
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 10:14:25 --> Undefined variable: data
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 42, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-13 10:18:12 --> Undefined variable: value
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 10:18:30 --> Undefined variable: value
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 10:18:58 --> Undefined variable: value
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 10:18:59 --> Undefined variable: value
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 10:19:25 --> Undefined variable: value
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 10:21:15 --> Undefined variable: value
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 10:28:24 --> Undefined variable: detail
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 21, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 10:32:15 --> Undefined variable: request_form
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 23, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 10:32:53 --> Undefined variable: request_form
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 20, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 10:34:41 --> Undefined variable: row
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 10:34:44 --> Undefined variable: row
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 10:34:58 --> Undefined variable: row
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 10:35:12 --> Undefined variable: value
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 10:35:16 --> Undefined variable: value
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 10:35:35 --> Undefined variable: value
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 10:35:56 --> Undefined variable: value
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 10:37:39 --> Undefined variable: value
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 10:37:51 --> Undefined variable: value
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 10:37:52 --> Undefined variable: value
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 10:38:26 --> Undefined variable: value
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 10:53:04 --> Class 'App\Controllers\DataModel' not found
+#0 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-13 10:53:06 --> Class 'App\Controllers\DataModel' not found
+#0 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-13 10:54:06 --> Class 'App\Controllers\DataModel' not found
+#0 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-13 10:57:27 --> Undefined variable: id
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 43, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-13 10:57:36 --> Undefined variable: id
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 43, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-13 10:58:27 --> Undefined variable: id
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 43, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-13 10:59:35 --> Undefined variable: id
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 43, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-13 10:59:36 --> Undefined variable: id
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 43, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-13 10:59:36 --> Undefined variable: id
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 43, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-13 11:00:09 --> Undefined variable: id
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 43, Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-13 11:04:44 --> Call to undefined method App\Models\RequestFormModel::tampilData
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): CodeIgniter\Model->__call('tampilData', Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-13 11:05:19 --> Call to undefined method App\Models\RequestFormModel::tampilData
+#0 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): CodeIgniter\Model->__call('tampilData', Array)
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-13 11:17:56 --> Undefined variable: request_form
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(43): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 11:18:11 --> Undefined variable: request_form
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(43): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 11:18:19 --> Undefined variable: request_form
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(43): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 11:18:33 --> Undefined variable: request_form
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(43): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 11:19:01 --> Undefined variable: product
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(43): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 13:08:23 --> Undefined variable: product
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(43): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 13:08:42 --> Undefined variable: product
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(43): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 13:08:43 --> Undefined variable: product
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(43): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 13:09:05 --> Undefined variable: detail
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(43): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 13:09:06 --> Undefined variable: detail
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(43): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 13:22:55 --> Undefined variable: detail
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(43): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 13:24:17 --> Undefined variable: detail
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(43): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 13:24:42 --> Undefined variable: edit
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(43): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 13:25:05 --> Undefined variable: edit
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(43): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 13:26:46 --> Undefined variable: edit
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(43): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 13:26:47 --> Undefined variable: edit
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(43): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-02-13 14:00:23 --> Unknown column 'detail' in 'where clause'
+CRITICAL - 2023-02-13 14:00:23 --> Unknown column 'detail' in 'where clause'
+#0 C:\laragon\www\mysau_template\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `request...')
+#1 C:\laragon\www\mysau_template\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `request...')
+#2 C:\laragon\www\mysau_template\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `request...')
+#3 C:\laragon\www\mysau_template\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `request...', Array, false)
+#4 C:\laragon\www\mysau_template\system\Model.php(326): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\mysau_template\system\BaseModel.php(917): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\laragon\www\mysau_template\system\Model.php(718): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(48): CodeIgniter\Model->update()
+#8 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->update()
+#9 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#10 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-02-13 14:00:47 --> Unknown column 'request_form' in 'where clause'
+CRITICAL - 2023-02-13 14:00:47 --> Unknown column 'request_form' in 'where clause'
+#0 C:\laragon\www\mysau_template\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `request...')
+#1 C:\laragon\www\mysau_template\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `request...')
+#2 C:\laragon\www\mysau_template\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `request...')
+#3 C:\laragon\www\mysau_template\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `request...', Array, false)
+#4 C:\laragon\www\mysau_template\system\Model.php(326): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\mysau_template\system\BaseModel.php(917): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\laragon\www\mysau_template\system\Model.php(718): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(48): CodeIgniter\Model->update()
+#8 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->update()
+#9 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#10 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-02-13 14:06:18 --> syntax error, unexpected 'class' (T_CLASS)
+#0 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#2 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#4 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-13 14:15:04 --> Undefined variable: update
+#0 C:\laragon\www\mysau_template\app\Views\request-form.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 23, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('request-form', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(22): view('request-form', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 14:15:16 --> Undefined variable: update
+#0 C:\laragon\www\mysau_template\app\Views\request-form.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 23, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('request-form', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(22): view('request-form', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 14:15:30 --> Undefined variable: update
+#0 C:\laragon\www\mysau_template\app\Views\request-form.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 23, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('request-form', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(22): view('request-form', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 14:16:01 --> Undefined variable: update
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 39, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 14:16:02 --> Undefined variable: update
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 39, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 14:16:12 --> Undefined variable: update
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 39, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 14:16:18 --> Undefined variable: update
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 39, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 14:16:28 --> Undefined variable: update
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 39, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 14:16:42 --> Undefined variable: update
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 39, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 14:17:11 --> Undefined variable: update
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 39, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 14:17:23 --> Undefined variable: update
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 39, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 14:17:43 --> Undefined variable: detail
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 39, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 14:19:52 --> Undefined variable: detail
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 39, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 14:20:11 --> Undefined variable: detail
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 39, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 14:20:18 --> Undefined variable: detail
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 39, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 14:21:10 --> Undefined variable: detail
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 39, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 14:21:38 --> Undefined variable: update
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 39, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 14:30:33 --> Undefined variable: detail
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 39, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 15:02:40 --> Undefined variable: update
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 29, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 15:02:48 --> Undefined variable: update
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 29, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 15:07:03 --> Undefined variable: update
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 29, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 15:07:16 --> Undefined variable: update
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 29, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 15:19:07 --> Undefined variable: request_form
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 96, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 15:27:27 --> Undefined variable: data
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 42, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 15:28:04 --> Undefined variable: data
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 43, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(42): view('detail')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 15:51:46 --> Too few arguments to function App\Controllers\Presensi::detail(), 0 passed in C:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-13 15:54:12 --> Undefined variable: data
+#0 C:\laragon\www\mysau_template\app\Views\request-form.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 98, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('request-form', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(22): view('request-form', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 15:54:13 --> Too few arguments to function App\Controllers\Presensi::detail(), 0 passed in C:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-13 15:54:21 --> Undefined variable: data
+#0 C:\laragon\www\mysau_template\app\Views\request-form.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 98, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('request-form', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(22): view('request-form', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 15:55:46 --> Too few arguments to function App\Controllers\Presensi::detail(), 0 passed in C:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-13 15:55:54 --> Too few arguments to function App\Controllers\Presensi::detail(), 0 passed in C:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-13 15:55:57 --> Too few arguments to function App\Controllers\Presensi::detail(), 0 passed in C:\laragon\www\mysau_template\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail()
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-13 15:59:46 --> Cannot use object of type App\Models\RequestFormModel as array
+#0 C:\laragon\www\mysau_template\system\View\View.php(230): include()
+#1 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#3 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(45): view('detail', Array)
+#4 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('19')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-13 15:59:52 --> Cannot use object of type App\Models\RequestFormModel as array
+#0 C:\laragon\www\mysau_template\system\View\View.php(230): include()
+#1 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#3 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(45): view('detail', Array)
+#4 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('19')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-13 16:00:06 --> Cannot use object of type App\Models\RequestFormModel as array
+#0 C:\laragon\www\mysau_template\system\View\View.php(230): include()
+#1 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#3 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(45): view('detail', Array)
+#4 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('19')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-13 16:00:15 --> Cannot use object of type App\Models\RequestFormModel as array
+#0 C:\laragon\www\mysau_template\system\View\View.php(230): include()
+#1 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#3 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(45): view('detail', Array)
+#4 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('19')
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-13 16:02:17 --> Trying to get property 'sub_kategori' of non-object
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(45): view('detail', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('19')
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 16:11:31 --> Trying to access array offset on value of type null
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(47): view('detail', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('23')
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 16:39:38 --> syntax error, unexpected '}'
+#0 C:\laragon\www\mysau_template\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('presensi')
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('presensi')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-13 16:40:22 --> syntax error, unexpected '}'
+#0 C:\laragon\www\mysau_template\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('presensi')
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('presensi')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-13 16:41:50 --> syntax error, unexpected '}'
+#0 C:\laragon\www\mysau_template\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('presensi')
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('presensi')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-13 16:42:27 --> syntax error, unexpected '}'
+#0 C:\laragon\www\mysau_template\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('presensi')
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('presensi')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-13 16:42:36 --> syntax error, unexpected '}'
+#0 C:\laragon\www\mysau_template\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('presensi')
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('presensi')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-13 16:43:10 --> syntax error, unexpected '}'
+#0 C:\laragon\www\mysau_template\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('presensi')
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('presensi')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-13 16:43:56 --> Undefined variable: request_form
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(46): view('detail', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('38')
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 16:44:31 --> Undefined variable: row
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(46): view('detail', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('38')
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 16:44:45 --> Undefined variable: value
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(46): view('detail', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('38')
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 16:45:56 --> Undefined variable: request_form
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(46): view('detail', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('38')
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 16:49:00 --> Undefined variable: request_form
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(46): view('detail', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('38')
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 16:50:06 --> Undefined variable: request_form
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(46): view('detail', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('38')
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 16:51:33 --> Undefined index: sub_kategori
+#0 C:\laragon\www\mysau_template\app\Views\request-form.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 101, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('request-form', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(22): view('request-form', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 16:51:54 --> Undefined variable: request_form
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(46): view('detail', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('38')
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-13 16:53:47 --> Undefined variable: request_form
+#0 C:\laragon\www\mysau_template\app\Views\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(46): view('detail', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('38')
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,725 @@
+CRITICAL - 2023-12-25 01:26:19 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 D:\laragon\www\test\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\...')
+#1 D:\laragon\www\test\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UpDa...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UpDa...')
+#3 D:\laragon\www\test\app\Controllers\updata.php(14): spl_autoload_call('App\\Models\\UpDa...')
+#4 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\updata->__construct()
+#5 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#6 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2023-12-25 01:26:25 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 D:\laragon\www\test\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\...')
+#1 D:\laragon\www\test\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UpDa...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UpDa...')
+#3 D:\laragon\www\test\app\Controllers\updata.php(14): spl_autoload_call('App\\Models\\UpDa...')
+#4 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\updata->__construct()
+#5 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#6 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2023-12-25 01:26:42 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-12-25 03:57:24 --> Class 'App\Models\CapianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\CapaianKaryawan->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 03:59:22 --> Class 'App\Models\CapianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\CapaianKaryawan->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 04:01:01 --> Division by zero
+#0 D:\laragon\www\test\app\Controllers\CapaianKaryawan.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'D:\\laragon\\www\\...', 109, Array)
+#1 D:\laragon\www\test\app\Controllers\CapaianKaryawan.php(85): App\Controllers\CapaianKaryawan->normalize_data(Array, Array)
+#2 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\CapaianKaryawan->calculate_saw_from_input()
+#3 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapaianKaryawan))
+#4 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2023-12-25 04:03:40 --> min(): Array must contain at least one element
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'min(): Array mu...', 'D:\\laragon\\www\\...', 105, Array)
+#1 D:\laragon\www\test\app\Controllers\CapaianKaryawan.php(105): min(Array)
+#2 D:\laragon\www\test\app\Controllers\CapaianKaryawan.php(85): App\Controllers\CapaianKaryawan->normalize_data(Array, Array)
+#3 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\CapaianKaryawan->calculate_saw_from_input()
+#4 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapaianKaryawan))
+#5 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2023-12-25 04:06:24 --> Division by zero
+#0 D:\laragon\www\test\app\Controllers\CapaianKaryawan.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'D:\\laragon\\www\\...', 110, Array)
+#1 D:\laragon\www\test\app\Controllers\CapaianKaryawan.php(85): App\Controllers\CapaianKaryawan->normalize_data(Array, Array)
+#2 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\CapaianKaryawan->calculate_saw_from_input()
+#3 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapaianKaryawan))
+#4 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2023-12-25 04:06:51 --> Array to string conversion
+#0 D:\laragon\www\test\app\Controllers\CapaianKaryawan.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\laragon\\www\\...', 105, Array)
+#1 D:\laragon\www\test\app\Controllers\CapaianKaryawan.php(85): App\Controllers\CapaianKaryawan->normalize_data(Array, Array)
+#2 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\CapaianKaryawan->calculate_saw_from_input()
+#3 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapaianKaryawan))
+#4 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2023-12-25 09:43:45 --> Undefined offset: 0
+#0 D:\laragon\www\test\app\Controllers\CapaianKaryawan.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 93, Array)
+#1 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\CapaianKaryawan->calculate_saw_from_input()
+#2 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapaianKaryawan))
+#3 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-12-25 10:07:23 --> Undefined index: c1
+#0 D:\laragon\www\test\app\Views\perhitungan.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 48, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('perhitungan', Array, true)
+#4 D:\laragon\www\test\app\Controllers\perhitungan.php(26): view('perhitungan', Array, Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\perhitungan->index()
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perhitungan))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-12-25 10:10:27 --> Undefined variable: dat
+#0 D:\laragon\www\test\app\Views\perhitungan.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 47, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('perhitungan', Array, true)
+#4 D:\laragon\www\test\app\Controllers\perhitungan.php(26): view('perhitungan', Array, Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\perhitungan->index()
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perhitungan))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-12-25 10:26:14 --> Undefined variable: dat
+#0 D:\laragon\www\test\app\Views\perhitungan.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 47, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('perhitungan', Array, true)
+#4 D:\laragon\www\test\app\Controllers\perhitungan.php(26): view('perhitungan', Array, Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\perhitungan->index()
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perhitungan))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-12-25 10:48:04 --> Undefined variable: normalizedata
+#0 D:\laragon\www\test\app\Views\perhitungan.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 193, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('perhitungan', Array, true)
+#4 D:\laragon\www\test\app\Controllers\perhitungan.php(26): view('perhitungan', Array, Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\perhitungan->index()
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perhitungan))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-12-25 10:50:03 --> Undefined variable: normalized_data
+#0 D:\laragon\www\test\app\Views\perhitungan.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 193, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('perhitungan', Array, true)
+#4 D:\laragon\www\test\app\Controllers\perhitungan.php(26): view('perhitungan', Array, Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\perhitungan->index()
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perhitungan))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-12-25 11:16:50 --> Undefined variable: normalized_data
+#0 D:\laragon\www\test\app\Views\perhitungan.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 193, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('perhitungan', Array, true)
+#4 D:\laragon\www\test\app\Controllers\perhitungan.php(26): view('perhitungan', Array, Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\perhitungan->index()
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perhitungan))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-12-25 11:39:49 --> Class 'App\models\NormalisasiModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\CapaianKaryawan->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 11:41:54 --> Class 'app\models\CripsModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\CapaianKaryawan->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 12:06:30 --> Array to string conversion
+#0 D:\laragon\www\test\app\Views\perhitungan.php(262): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\laragon\\www\\...', 262, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('perhitungan', Array, true)
+#4 D:\laragon\www\test\app\Controllers\perhitungan.php(26): view('perhitungan', Array, Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\perhitungan->index()
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perhitungan))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-12-25 12:14:13 --> Trying to access array offset on value of type int
+#0 D:\laragon\www\test\app\Views\perhitungan.php(341): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\laragon\\www\\...', 341, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('perhitungan', Array, true)
+#4 D:\laragon\www\test\app\Controllers\perhitungan.php(26): view('perhitungan', Array, Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\perhitungan->index()
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perhitungan))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-12-25 12:21:42 --> Undefined index: pn
+#0 D:\laragon\www\test\app\Views\perhitungan.php(343): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 343, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('perhitungan', Array, true)
+#4 D:\laragon\www\test\app\Controllers\perhitungan.php(26): view('perhitungan', Array, Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\perhitungan->index()
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perhitungan))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-12-25 12:34:58 --> Array to string conversion
+#0 D:\laragon\www\test\app\Views\perhitungan.php(344): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\laragon\\www\\...', 344, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('perhitungan', Array, true)
+#4 D:\laragon\www\test\app\Controllers\perhitungan.php(26): view('perhitungan', Array, Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\perhitungan->index()
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perhitungan))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-12-25 12:35:11 --> Array to string conversion
+#0 D:\laragon\www\test\app\Views\perhitungan.php(344): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\laragon\\www\\...', 344, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('perhitungan', Array, true)
+#4 D:\laragon\www\test\app\Controllers\perhitungan.php(26): view('perhitungan', Array, Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\perhitungan->index()
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perhitungan))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-12-25 12:35:13 --> Array to string conversion
+#0 D:\laragon\www\test\app\Views\perhitungan.php(344): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\laragon\\www\\...', 344, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('perhitungan', Array, true)
+#4 D:\laragon\www\test\app\Controllers\perhitungan.php(26): view('perhitungan', Array, Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\perhitungan->index()
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perhitungan))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-12-25 12:35:14 --> Array to string conversion
+#0 D:\laragon\www\test\app\Views\perhitungan.php(344): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\laragon\\www\\...', 344, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('perhitungan', Array, true)
+#4 D:\laragon\www\test\app\Controllers\perhitungan.php(26): view('perhitungan', Array, Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\perhitungan->index()
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perhitungan))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-12-25 12:35:14 --> Array to string conversion
+#0 D:\laragon\www\test\app\Views\perhitungan.php(344): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\laragon\\www\\...', 344, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('perhitungan', Array, true)
+#4 D:\laragon\www\test\app\Controllers\perhitungan.php(26): view('perhitungan', Array, Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\perhitungan->index()
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perhitungan))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-12-25 12:35:15 --> Array to string conversion
+#0 D:\laragon\www\test\app\Views\perhitungan.php(344): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\laragon\\www\\...', 344, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('perhitungan', Array, true)
+#4 D:\laragon\www\test\app\Controllers\perhitungan.php(26): view('perhitungan', Array, Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\perhitungan->index()
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perhitungan))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-12-25 12:35:15 --> Array to string conversion
+#0 D:\laragon\www\test\app\Views\perhitungan.php(344): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\laragon\\www\\...', 344, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('perhitungan', Array, true)
+#4 D:\laragon\www\test\app\Controllers\perhitungan.php(26): view('perhitungan', Array, Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\perhitungan->index()
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perhitungan))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-12-25 12:35:16 --> Array to string conversion
+#0 D:\laragon\www\test\app\Views\perhitungan.php(344): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\laragon\\www\\...', 344, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('perhitungan', Array, true)
+#4 D:\laragon\www\test\app\Controllers\perhitungan.php(26): view('perhitungan', Array, Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\perhitungan->index()
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perhitungan))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-12-25 12:35:16 --> Array to string conversion
+#0 D:\laragon\www\test\app\Views\perhitungan.php(344): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\laragon\\www\\...', 344, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('perhitungan', Array, true)
+#4 D:\laragon\www\test\app\Controllers\perhitungan.php(26): view('perhitungan', Array, Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\perhitungan->index()
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perhitungan))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-12-25 12:35:31 --> Array to string conversion
+#0 D:\laragon\www\test\app\Views\perhitungan.php(344): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\laragon\\www\\...', 344, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('perhitungan', Array, true)
+#4 D:\laragon\www\test\app\Controllers\perhitungan.php(26): view('perhitungan', Array, Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\perhitungan->index()
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perhitungan))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-12-25 12:55:44 --> Undefined variable: hasil_proses
+#0 D:\laragon\www\test\app\Views\perhitungan.php(397): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 397, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('perhitungan', Array, true)
+#4 D:\laragon\www\test\app\Controllers\perhitungan.php(26): view('perhitungan', Array, Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\perhitungan->index()
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perhitungan))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-12-25 13:29:11 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 13:30:27 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 13:30:29 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 13:31:28 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 13:33:19 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 13:34:46 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 13:34:47 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 13:34:48 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 13:34:48 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 13:34:48 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 13:34:48 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 13:34:48 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 13:34:49 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 13:34:50 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 13:34:50 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 13:34:50 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 13:34:50 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 13:34:50 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 14:46:04 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 14:46:18 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 14:46:22 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 14:47:47 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 14:47:48 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 14:47:49 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 14:47:50 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 14:47:51 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 14:47:52 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 14:47:52 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 14:47:53 --> Class 'app\Models\CapaianModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\test\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-12-25 14:49:13 --> Undefined variable: capaian
+#0 D:\laragon\www\test\app\Views\welcome_message.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 42, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 D:\laragon\www\test\app\Controllers\Home.php(30): view('welcome_message', Array, Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2023-12-25 14:50:20 --> Unknown column 'hasil_proses' in 'order clause'
+CRITICAL - 2023-12-25 14:50:20 --> Unknown column 'hasil_proses' in 'order clause'
+#0 D:\laragon\www\test\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 D:\laragon\www\test\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\test\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\test\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\test\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\test\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\laragon\www\test\app\Controllers\Home.php(23): CodeIgniter\BaseModel->findAll()
+#7 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#8 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-12-25 14:51:26 --> Undefined variable: hasil_proses
+#0 D:\laragon\www\test\app\Views\welcome_message.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 42, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 D:\laragon\www\test\app\Controllers\Home.php(30): view('welcome_message', Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-12-25 14:53:55 --> Call to undefined function your_data_array()
+#0 D:\laragon\www\test\system\View\View.php(230): include()
+#1 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('welcome_message', Array, true)
+#3 D:\laragon\www\test\app\Controllers\Home.php(30): view('welcome_message', Array)
+#4 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#5 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2023-12-25 14:54:43 --> Call to undefined function your_data_array()
+#0 D:\laragon\www\test\system\View\View.php(230): include()
+#1 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('welcome_message', Array, true)
+#3 D:\laragon\www\test\app\Controllers\Home.php(30): view('welcome_message', Array)
+#4 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#5 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2023-12-25 14:59:30 --> Undefined variable: hasil_saw
+#0 D:\laragon\www\test\app\Views\welcome_message.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 42, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 D:\laragon\www\test\app\Controllers\Home.php(30): view('welcome_message', Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-12-25 14:59:51 --> Undefined variable: hasil_saw
+#0 D:\laragon\www\test\app\Views\welcome_message.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 77, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 D:\laragon\www\test\app\Controllers\Home.php(30): view('welcome_message', Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-12-25 15:07:39 --> Undefined variable: capaian
+#0 D:\laragon\www\test\app\Views\DataKaryawan.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 83, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('DataKaryawan', Array, true)
+#4 D:\laragon\www\test\app\Controllers\ListKaryawan.php(83): view('DataKaryawan', Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail('1679')
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-12-25 15:13:10 --> Undefined variable: data
+#0 D:\laragon\www\test\app\Controllers\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 33, Array)
+#1 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#2 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-12-25 15:13:10 --> Undefined variable: data
+#0 D:\laragon\www\test\app\Controllers\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 33, Array)
+#1 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#2 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-12-25 15:13:11 --> Undefined variable: data
+#0 D:\laragon\www\test\app\Controllers\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 33, Array)
+#1 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#2 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-12-25 15:13:16 --> Undefined variable: data
+#0 D:\laragon\www\test\app\Controllers\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 33, Array)
+#1 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#2 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-12-25 15:19:09 --> Undefined index: ca
+#0 D:\laragon\www\test\app\Views\DataKaryawan.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 86, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('DataKaryawan', Array, true)
+#4 D:\laragon\www\test\app\Controllers\ListKaryawan.php(83): view('DataKaryawan', Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail('1679')
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-12-25 15:21:39 --> Undefined index: preferensi_relatif
+#0 D:\laragon\www\test\app\Views\DataKaryawan.php(150): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 150, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('DataKaryawan', Array, true)
+#4 D:\laragon\www\test\app\Controllers\ListKaryawan.php(83): view('DataKaryawan', Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail('1679')
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-12-25 15:22:10 --> Undefined variable: capaian
+#0 D:\laragon\www\test\app\Views\DataKaryawan.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 149, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('DataKaryawan', Array, true)
+#4 D:\laragon\www\test\app\Controllers\ListKaryawan.php(83): view('DataKaryawan', Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail('1679')
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-12-25 15:22:19 --> Undefined variable: capaian
+#0 D:\laragon\www\test\app\Views\DataKaryawan.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 149, Array)
+#1 D:\laragon\www\test\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\test\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\test\system\Common.php(1271): CodeIgniter\View\View->render('DataKaryawan', Array, true)
+#4 D:\laragon\www\test\app\Controllers\ListKaryawan.php(83): view('DataKaryawan', Array)
+#5 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail('1679')
+#6 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#7 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-12-25 15:25:43 --> Class 'App\Controllers\NormalisasiModel' not found
+#0 D:\laragon\www\test\system\CodeIgniter.php(928): App\Controllers\CapaianKaryawan->calculate_saw_from_input()
+#1 D:\laragon\www\test\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapaianKaryawan))
+#2 D:\laragon\www\test\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\test\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}

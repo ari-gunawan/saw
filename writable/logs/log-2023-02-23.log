@@ -1,0 +1,72 @@
+ERROR - 2023-02-23 09:29:28 --> Not unique table/alias: 'organization_structure'
+CRITICAL - 2023-02-23 09:29:28 --> Not unique table/alias: 'organization_structure'
+#0 C:\laragon\www\mysau_template\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\laragon\www\mysau_template\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\mysau_template\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\mysau_template\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\mysau_template\app\Models\RequestFormModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(66): App\Models\RequestFormModel->get_form('42')
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('42')
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#8 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-02-23 09:29:33 --> Not unique table/alias: 'organization_structure'
+CRITICAL - 2023-02-23 09:29:33 --> Not unique table/alias: 'organization_structure'
+#0 C:\laragon\www\mysau_template\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\laragon\www\mysau_template\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\mysau_template\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\mysau_template\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\mysau_template\app\Models\RequestFormModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(66): App\Models\RequestFormModel->get_form('41')
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('41')
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#8 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-02-23 09:30:09 --> Not unique table/alias: 'organization_structure'
+CRITICAL - 2023-02-23 09:30:09 --> Not unique table/alias: 'organization_structure'
+#0 C:\laragon\www\mysau_template\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\laragon\www\mysau_template\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\mysau_template\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\mysau_template\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\mysau_template\app\Models\RequestFormModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(79): App\Models\RequestFormModel->get_form('41')
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('41')
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#8 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-02-23 09:30:17 --> Not unique table/alias: 'organization_structure'
+CRITICAL - 2023-02-23 09:30:17 --> Not unique table/alias: 'organization_structure'
+#0 C:\laragon\www\mysau_template\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\laragon\www\mysau_template\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\mysau_template\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\mysau_template\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\mysau_template\app\Models\RequestFormModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(79): App\Models\RequestFormModel->get_form('41')
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('41')
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#8 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-23 09:30:51 --> syntax error, unexpected 'y' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\laragon\www\mysau_template\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('Presensi/detail...')
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('Presensi/detail...')
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-02-23 09:30:58 --> Not unique table/alias: 'organization_structure'
+CRITICAL - 2023-02-23 09:30:58 --> Not unique table/alias: 'organization_structure'
+#0 C:\laragon\www\mysau_template\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\laragon\www\mysau_template\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\mysau_template\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\mysau_template\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\mysau_template\app\Models\RequestFormModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(66): App\Models\RequestFormModel->get_form('41')
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->detail('41')
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#8 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

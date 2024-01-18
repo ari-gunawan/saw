@@ -1,0 +1,185 @@
+ERROR - 2023-05-04 20:36:13 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-05-04 20:36:13 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 D:\laragon\www\mysau_template\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\laragon\www\mysau_template\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\laragon\www\mysau_template\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\laragon\www\mysau_template\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#4 D:\laragon\www\mysau_template\app\Controllers\Login.php(29): CodeIgniter\BaseModel->first()
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Login->auth()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2023-05-04 20:37:32 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-05-04 20:37:32 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 D:\laragon\www\mysau_template\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\laragon\www\mysau_template\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\laragon\www\mysau_template\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\laragon\www\mysau_template\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#4 D:\laragon\www\mysau_template\app\Controllers\Login.php(29): CodeIgniter\BaseModel->first()
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Login->auth()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-05-04 20:38:00 --> Undefined variable: hasil_proses
+#0 D:\laragon\www\mysau_template\app\Views\welcome_message.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 41, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\Home.php(11): view('welcome_message')
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-05-04 20:38:01 --> Undefined variable: hasil_proses
+#0 D:\laragon\www\mysau_template\app\Views\welcome_message.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 41, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\Home.php(11): view('welcome_message')
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-05-04 20:38:05 --> Undefined variable: hasil_proses
+#0 D:\laragon\www\mysau_template\app\Views\welcome_message.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 41, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\Home.php(11): view('welcome_message')
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-05-04 20:38:14 --> Undefined variable: hasil_proses
+#0 D:\laragon\www\mysau_template\app\Views\welcome_message.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 41, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\Home.php(11): view('welcome_message')
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-05-04 20:40:55 --> Undefined variable: hasil_proses
+#0 D:\laragon\www\mysau_template\app\Views\welcome_message.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 41, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\Home.php(11): view('welcome_message')
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-05-04 20:41:56 --> Undefined variable: hasil_proses
+#0 D:\laragon\www\mysau_template\app\Views\welcome_message.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 41, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\Home.php(11): view('welcome_message')
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-05-04 20:42:04 --> Undefined variable: hasil_proses
+#0 D:\laragon\www\mysau_template\app\Views\welcome_message.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 41, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\Home.php(11): view('welcome_message')
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-05-04 20:42:05 --> Undefined variable: hasil_proses
+#0 D:\laragon\www\mysau_template\app\Views\welcome_message.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 41, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\Home.php(11): view('welcome_message')
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-05-04 20:43:18 --> Undefined property: App\Controllers\Home::$TopsisModel
+#0 D:\laragon\www\mysau_template\app\Controllers\Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 13, Array)
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-05-04 20:43:45 --> Class 'App\Controllers\TopsisModel' not found
+#0 D:\laragon\www\mysau_template\system\CodeIgniter.php(900): App\Controllers\Home->__construct()
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2023-05-04 20:48:27 --> Undefined index: id
+#0 D:\laragon\www\mysau_template\app\Views\tabelKaryawan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 34, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('tabelKaryawan', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(23): view('tabelKaryawan', Array)
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->index()
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2023-05-04 20:49:36 --> Undefined property: App\Controllers\ListKaryawan::$DetailKaryawanModel
+#0 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 29, Array)
+#1 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail('1679')
+#2 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#3 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2023-05-04 20:57:34 --> Invalid file: detail.php
+#0 D:\laragon\www\mysau_template\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detail.php')
+#1 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('detail', Array, true)
+#2 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(35): view('detail', Array)
+#3 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail('1679')
+#4 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2023-05-04 20:58:03 --> Undefined variable: mytable
+#0 D:\laragon\www\mysau_template\app\Views\DataKaryawan.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 19, Array)
+#1 D:\laragon\www\mysau_template\system\View\View.php(230): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('DataKaryawan', Array, true)
+#4 D:\laragon\www\mysau_template\app\Controllers\ListKaryawan.php(35): view('DataKaryawan', Array)
+#5 D:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\ListKaryawan->detail('1679')
+#6 D:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ListKaryawan))
+#7 D:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\mysau_template\system\Commands\Server\rewrite.php(45): require_once('D:\\laragon\\www\\...')
+#10 {main}

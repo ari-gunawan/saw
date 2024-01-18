@@ -1,0 +1,80 @@
+CRITICAL - 2022-12-26 10:24:08 --> syntax error, unexpected ' ' (T_STRING), expecting ';' or ','
+#0 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('presensi', Array, true)
+#2 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(24): view('presensi', Array)
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#4 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-26 10:24:10 --> syntax error, unexpected ' ' (T_STRING), expecting ';' or ','
+#0 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('presensi', Array, true)
+#2 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(24): view('presensi', Array)
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#4 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-26 10:24:12 --> syntax error, unexpected ' ' (T_STRING), expecting ';' or ','
+#0 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('presensi', Array, true)
+#2 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(24): view('presensi', Array)
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#4 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-26 10:24:12 --> syntax error, unexpected ' ' (T_STRING), expecting ';' or ','
+#0 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('presensi', Array, true)
+#2 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(24): view('presensi', Array)
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#4 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-26 10:25:08 --> Use of undefined constant   - assumed ' ' (this will throw an Error in a future version of PHP)
+#0 C:\laragon\www\mysau_template\app\Views\presensi.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\laragon\\www\\...', 24, Array)
+#1 C:\laragon\www\mysau_template\system\View\View.php(230): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\mysau_template\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('presensi', Array, true)
+#4 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(24): view('presensi', Array)
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#6 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#7 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-26 11:05:46 --> Invalid file: presensi.php
+#0 C:\laragon\www\mysau_template\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('presensi.php')
+#1 C:\laragon\www\mysau_template\system\Common.php(1271): CodeIgniter\View\View->render('presensi', Array, true)
+#2 C:\laragon\www\mysau_template\app\Controllers\Presensi.php(24): view('presensi', Array)
+#3 C:\laragon\www\mysau_template\system\CodeIgniter.php(928): App\Controllers\Presensi->index()
+#4 C:\laragon\www\mysau_template\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Presensi))
+#5 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-26 11:28:58 --> Class 'App\Models\RequestFormModel' not found
+#0 C:\laragon\www\mysau_template\system\CodeIgniter.php(900): App\Controllers\Presensi->__construct()
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-26 11:28:59 --> Class 'App\Models\RequestFormModel' not found
+#0 C:\laragon\www\mysau_template\system\CodeIgniter.php(900): App\Controllers\Presensi->__construct()
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-26 11:29:00 --> Class 'App\Models\RequestFormModel' not found
+#0 C:\laragon\www\mysau_template\system\CodeIgniter.php(900): App\Controllers\Presensi->__construct()
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-26 11:29:01 --> Class 'App\Models\RequestFormModel' not found
+#0 C:\laragon\www\mysau_template\system\CodeIgniter.php(900): App\Controllers\Presensi->__construct()
+#1 C:\laragon\www\mysau_template\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\laragon\www\mysau_template\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\mysau_template\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
